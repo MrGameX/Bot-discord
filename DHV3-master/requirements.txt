@@ -1,0 +1,8 @@
+python-dateutil
+mysqlclient
+sqlalchemy
+records
+discord.py
+tabulate
+psutil
+mysql-connector-python-rf
