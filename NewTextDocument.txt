@@ -1,0 +1,10 @@
+{
+   "token": "NTg1NTA4NTc1MDU3Njc0MjUw.XPahxg.QoqaEfLqo11tE6mQ26ytAxX4WaU",
+   "client_id": "585508575057674250",
+   "bots_key": "E88R3tKORssbvDpgYuGsaMq600klP-BG",
+   "mysql_user": "duck",
+   "mysql_pass": "",
+   "mysql_host": "SQL CONNECTION URL",
+   "mysql_port": "SQL SERVER PORT",
+   "mysql_db": "SQL DB NAME"    
+}
