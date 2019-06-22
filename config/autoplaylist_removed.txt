@@ -1,0 +1,12 @@
+# Entry removed Sat Jun  8 17:39:32 2019
+# Reason: ERROR: This video is unavailable.
+https://youtube.com/watch?v=7en8t8gZBlo
+
+################################
+
+# Entry removed Sat Jun  8 17:39:32 2019
+# Reason: ERROR: This video contains content from UMG, who has blocked it in your country on copyright grounds.
+https://youtube.com/watch?v=13GD78Bmo8s
+
+################################
+

@@ -1,0 +1,140 @@
+[100.665807724] 2019-06-22 15:08:06,045 - INFO - launcher: Starting sanity checks
+[101.406574249] 2019-06-22 15:08:06,046 - INFO - launcher: Checking for Python 3.5+
+[101.852893829] 2019-06-22 15:08:06,047 - INFO - launcher: Checking console encoding
+[102.375030518] 2019-06-22 15:08:06,047 - INFO - launcher: Ensuring we're in the right environment
+[1084.758996964] 2019-06-22 15:08:07,029 - INFO - launcher: Required checks passed.
+[1085.644483566] 2019-06-22 15:08:07,030 - INFO - launcher: Optional checks passed.
+[1091.167688370] 2019-06-22 15:08:07,036 - INFO - launcher: Moving old musicbot log
+
+######################### PRE-RUN SANITY CHECKS PASSED #########################
+
+[2.5127489566802979] 2019-06-22 15:08:08,457 - WARNING - musicbot.config | In config.py::MainThread(1995624448), line 120 in run_checks: i18n file does not exist. Trying to fallback to config/i18n/en.json.
+[2.5133643150329590] 2019-06-22 15:08:08,458 - INFO - musicbot.config | In config.py::MainThread(1995624448), line 131 in run_checks: Using i18n: config/i18n/en.json
+[2.5206508636474609] 2019-06-22 15:08:08,465 - DEBUG - musicbot.bot | In bot.py::MainThread(1995624448), line 226 in _setup_logging: Set logging level to INFO
+[2.5313947200775146] 2019-06-22 15:08:08,476 - DEBUG - musicbot.json | In json.py::MainThread(1995624448), line 8 in __init__: Init JSON obj with config/i18n/en.json
+[2.5663361549377441] 2019-06-22 15:08:08,511 - INFO - musicbot.bot | In bot.py::MainThread(1995624448), line 91 in __init__: Starting MusicBot release-120519
+[2.5670983791351318] 2019-06-22 15:08:08,512 - INFO - musicbot.bot | In bot.py::MainThread(1995624448), line 97 in __init__: Loaded autoplaylist with 2529 entries
+[2.7582285404205322] 2019-06-22 15:08:08,703 - DEBUG - musicbot.spotify | In spotify.py::MainThread(1995624448), line 74 in get_token: Created a new access token: {'access_token': 'BQCyY9xQFs25c-HMsg6eri-0jM64WXLmJgc6dzpuuGq5Yp98ubkEZH3qb5A_Xx7_vnq9wDvxldcbQuP76rs', 'token_type': 'Bearer', 'expires_in': 3600, 'scope': '', 'expires_at': 1561212488}
+[2.7589297294616699] 2019-06-22 15:08:08,704 - INFO - musicbot.bot | In bot.py::MainThread(1995624448), line 122 in __init__: Authenticated with Spotify successfully using client ID and secret.
+[5.5753228664398193] 2019-06-22 15:08:11,520 - DEBUG - musicbot.bot | In bot.py::MainThread(1995624448), line 949 in on_ready: Connection established, ready to go.
+[5.5762822628021240] 2019-06-22 15:08:11,521 - DEBUG - musicbot.bot | In bot.py::MainThread(1995624448), line 340 in _cache_app_info: Caching app info
+[5.7412688732147217] 2019-06-22 15:08:11,686 - DEBUG - musicbot.bot | In bot.py::MainThread(1995624448), line 771 in _scheck_ensure_env: Ensuring data folders exist
+[5.7439980506896973] 2019-06-22 15:08:11,689 - DEBUG - musicbot.bot | In bot.py::MainThread(1995624448), line 787 in _scheck_server_permissions: Checking server permissions
+[5.7447741031646729] 2019-06-22 15:08:11,689 - DEBUG - musicbot.bot | In bot.py::MainThread(1995624448), line 791 in _scheck_autoplaylist: Auditing autoplaylist
+[5.7453303337097168] 2019-06-22 15:08:11,690 - DEBUG - musicbot.bot | In bot.py::MainThread(1995624448), line 795 in _scheck_configs: Validating config
+[5.7459185123443604] 2019-06-22 15:08:11,691 - DEBUG - musicbot.config | In config.py::MainThread(1995624448), line 228 in async_validate: Validating options...
+[5.7464714050292969] 2019-06-22 15:08:11,691 - DEBUG - musicbot.config | In config.py::MainThread(1995624448), line 242 in async_validate: Acquired owner id via API
+[5.7471024990081787] 2019-06-22 15:08:11,692 - DEBUG - musicbot.bot | In bot.py::MainThread(1995624448), line 798 in _scheck_configs: Validating permissions config
+[5.7476930618286133] 2019-06-22 15:08:11,692 - DEBUG - musicbot.permissions | In permissions.py::MainThread(1995624448), line 94 in async_validate: Validating permissions...
+[5.7483124732971191] 2019-06-22 15:08:11,693 - DEBUG - musicbot.permissions | In permissions.py::MainThread(1995624448), line 98 in async_validate: Fixing automatic owner group
+[5.7489161491394043] 2019-06-22 15:08:11,694 - INFO - musicbot.bot | In bot.py::MainThread(1995624448), line 966 in on_ready: Connected: 585508575057674250/RTD#7091
+[5.7502536773681641] 2019-06-22 15:08:11,695 - INFO - musicbot.bot | In bot.py::MainThread(1995624448), line 974 in on_ready: Owner:     303933744971251713/MrGameX#5574
+
+[5.7514045238494873] 2019-06-22 15:08:11,696 - INFO - musicbot.bot | In bot.py::MainThread(1995624448), line 977 in on_ready: Guild List:
+[5.7525906562805176] 2019-06-22 15:08:11,697 - INFO - musicbot.bot | In bot.py::MainThread(1995624448), line 981 in on_ready:  - RTD_Team
+[5.7537636756896973] 2019-06-22 15:08:11,698 - INFO - musicbot.bot | In bot.py::MainThread(1995624448), line 1037 in on_ready: Not bound to any text channels
+[5.7548687458038330] 2019-06-22 15:08:11,700 - INFO - musicbot.bot | In bot.py::MainThread(1995624448), line 1063 in on_ready: Not autojoining any voice channels
+[16.1903617382049561] 2019-06-22 15:08:22,135 - INFO - musicbot.bot | In bot.py::MainThread(1995624448), line 2692 in on_message: 303933744971251713/MrGameX#5574: !summon
+[16.6422350406646729] 2019-06-22 15:08:22,587 - INFO - musicbot.bot | In bot.py::MainThread(1995624448), line 1926 in cmd_summon: Joining RTD_Team/League of Legends
+[16.6552937030792236] 2019-06-22 15:08:22,600 - DEBUG - musicbot.bot | In bot.py::MainThread(1995624448), line 530 in on_player_stop: Running on_player_stop
+[77.3217601776123047] 2019-06-22 15:09:23,266 - INFO - musicbot.bot | In bot.py::MainThread(1995624448), line 2692 in on_message: 303933744971251713/MrGameX#5574: !play 2th
+[83.1237475872039795] 2019-06-22 15:09:29,068 - ERROR - musicbot.bot | In bot.py::MainThread(1995624448), line 2821 in on_message: Error in play: CommandError: [0;31mERROR:[0m Signature extraction failed: Traceback (most recent call last):
+  File "/usr/local/opt/python-3.7.0/lib/python3.7/site-packages/youtube_dl/extractor/youtube.py", line 1342, in _decrypt_signature
+    video_id, player_url, s
+  File "/usr/local/opt/python-3.7.0/lib/python3.7/site-packages/youtube_dl/extractor/youtube.py", line 1250, in _extract_signature_function
+    res = self._parse_sig_js(code)
+  File "/usr/local/opt/python-3.7.0/lib/python3.7/site-packages/youtube_dl/extractor/youtube.py", line 1314, in _parse_sig_js
+    jscode, 'Initial JS player signature function name', group='sig')
+  File "/usr/local/opt/python-3.7.0/lib/python3.7/site-packages/youtube_dl/extractor/common.py", line 1005, in _search_regex
+    raise RegexNotFoundError('Unable to extract %s' % _name)
+youtube_dl.utils.RegexNotFoundError: Unable to extract [0;34mInitial JS player signature function name[0m
+ (caused by RegexNotFoundError('Unable to extract \x1b[0;34mInitial JS player signature function name\x1b[0m'))
+Traceback (most recent call last):
+  File "/usr/local/opt/python-3.7.0/lib/python3.7/site-packages/youtube_dl/extractor/youtube.py", line 1342, in _decrypt_signature
+    video_id, player_url, s
+  File "/usr/local/opt/python-3.7.0/lib/python3.7/site-packages/youtube_dl/extractor/youtube.py", line 1250, in _extract_signature_function
+    res = self._parse_sig_js(code)
+  File "/usr/local/opt/python-3.7.0/lib/python3.7/site-packages/youtube_dl/extractor/youtube.py", line 1314, in _parse_sig_js
+    jscode, 'Initial JS player signature function name', group='sig')
+  File "/usr/local/opt/python-3.7.0/lib/python3.7/site-packages/youtube_dl/extractor/common.py", line 1005, in _search_regex
+    raise RegexNotFoundError('Unable to extract %s' % _name)
+youtube_dl.utils.RegexNotFoundError: Unable to extract [0;34mInitial JS player signature function name[0m
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/opt/python-3.7.0/lib/python3.7/site-packages/youtube_dl/YoutubeDL.py", line 796, in extract_info
+    ie_result = ie.extract(url)
+  File "/usr/local/opt/python-3.7.0/lib/python3.7/site-packages/youtube_dl/extractor/common.py", line 530, in extract
+    ie_result = self._real_extract(url)
+  File "/usr/local/opt/python-3.7.0/lib/python3.7/site-packages/youtube_dl/extractor/youtube.py", line 1986, in _real_extract
+    encrypted_sig, video_id, player_url, age_gate)
+  File "/usr/local/opt/python-3.7.0/lib/python3.7/site-packages/youtube_dl/extractor/youtube.py", line 1352, in _decrypt_signature
+    'Signature extraction failed: ' + tb, cause=e)
+youtube_dl.utils.ExtractorError: Signature extraction failed: Traceback (most recent call last):
+  File "/usr/local/opt/python-3.7.0/lib/python3.7/site-packages/youtube_dl/extractor/youtube.py", line 1342, in _decrypt_signature
+    video_id, player_url, s
+  File "/usr/local/opt/python-3.7.0/lib/python3.7/site-packages/youtube_dl/extractor/youtube.py", line 1250, in _extract_signature_function
+    res = self._parse_sig_js(code)
+  File "/usr/local/opt/python-3.7.0/lib/python3.7/site-packages/youtube_dl/extractor/youtube.py", line 1314, in _parse_sig_js
+    jscode, 'Initial JS player signature function name', group='sig')
+  File "/usr/local/opt/python-3.7.0/lib/python3.7/site-packages/youtube_dl/extractor/common.py", line 1005, in _search_regex
+    raise RegexNotFoundError('Unable to extract %s' % _name)
+youtube_dl.utils.RegexNotFoundError: Unable to extract [0;34mInitial JS player signature function name[0m
+ (caused by RegexNotFoundError('Unable to extract \x1b[0;34mInitial JS player signature function name\x1b[0m'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pi/Documents/Bot/RTD/musicbot/bot.py", line 1399, in cmd_play
+    info_process = await self.downloader.extract_info(player.playlist.loop, song_url, download=False)
+  File "/home/pi/Documents/Bot/RTD/musicbot/downloader.py", line 84, in extract_info
+    return await loop.run_in_executor(self.thread_pool, functools.partial(self.unsafe_ytdl.extract_info, *args, **kwargs))
+  File "/usr/local/opt/python-3.7.0/lib/python3.7/concurrent/futures/thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/usr/local/opt/python-3.7.0/lib/python3.7/site-packages/youtube_dl/YoutubeDL.py", line 807, in extract_info
+    return self.process_ie_result(ie_result, download, extra_info)
+  File "/usr/local/opt/python-3.7.0/lib/python3.7/site-packages/youtube_dl/YoutubeDL.py", line 868, in process_ie_result
+    extra_info=extra_info)
+  File "/usr/local/opt/python-3.7.0/lib/python3.7/site-packages/youtube_dl/YoutubeDL.py", line 807, in extract_info
+    return self.process_ie_result(ie_result, download, extra_info)
+  File "/usr/local/opt/python-3.7.0/lib/python3.7/site-packages/youtube_dl/YoutubeDL.py", line 1006, in process_ie_result
+    extra_info=extra)
+  File "/usr/local/opt/python-3.7.0/lib/python3.7/site-packages/youtube_dl/YoutubeDL.py", line 868, in process_ie_result
+    extra_info=extra_info)
+  File "/usr/local/opt/python-3.7.0/lib/python3.7/site-packages/youtube_dl/YoutubeDL.py", line 819, in extract_info
+    self.report_error(compat_str(e), e.format_traceback())
+  File "/usr/local/opt/python-3.7.0/lib/python3.7/site-packages/youtube_dl/YoutubeDL.py", line 624, in report_error
+    self.trouble(error_message, tb)
+  File "/usr/local/opt/python-3.7.0/lib/python3.7/site-packages/youtube_dl/YoutubeDL.py", line 594, in trouble
+    raise DownloadError(message, exc_info)
+youtube_dl.utils.DownloadError: [0;31mERROR:[0m Signature extraction failed: Traceback (most recent call last):
+  File "/usr/local/opt/python-3.7.0/lib/python3.7/site-packages/youtube_dl/extractor/youtube.py", line 1342, in _decrypt_signature
+    video_id, player_url, s
+  File "/usr/local/opt/python-3.7.0/lib/python3.7/site-packages/youtube_dl/extractor/youtube.py", line 1250, in _extract_signature_function
+    res = self._parse_sig_js(code)
+  File "/usr/local/opt/python-3.7.0/lib/python3.7/site-packages/youtube_dl/extractor/youtube.py", line 1314, in _parse_sig_js
+    jscode, 'Initial JS player signature function name', group='sig')
+  File "/usr/local/opt/python-3.7.0/lib/python3.7/site-packages/youtube_dl/extractor/common.py", line 1005, in _search_regex
+    raise RegexNotFoundError('Unable to extract %s' % _name)
+youtube_dl.utils.RegexNotFoundError: Unable to extract [0;34mInitial JS player signature function name[0m
+ (caused by RegexNotFoundError('Unable to extract \x1b[0;34mInitial JS player signature function name\x1b[0m'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pi/Documents/Bot/RTD/musicbot/bot.py", line 2799, in on_message
+    response = await handler(**handler_kwargs)
+  File "/home/pi/Documents/Bot/RTD/musicbot/bot.py", line 1418, in cmd_play
+    raise exceptions.CommandError(e, expire_in=30)
+musicbot.exceptions.CommandError: [0;31mERROR:[0m Signature extraction failed: Traceback (most recent call last):
+  File "/usr/local/opt/python-3.7.0/lib/python3.7/site-packages/youtube_dl/extractor/youtube.py", line 1342, in _decrypt_signature
+    video_id, player_url, s
+  File "/usr/local/opt/python-3.7.0/lib/python3.7/site-packages/youtube_dl/extractor/youtube.py", line 1250, in _extract_signature_function
+    res = self._parse_sig_js(code)
+  File "/usr/local/opt/python-3.7.0/lib/python3.7/site-packages/youtube_dl/extractor/youtube.py", line 1314, in _parse_sig_js
+    jscode, 'Initial JS player signature function name', group='sig')
+  File "/usr/local/opt/python-3.7.0/lib/python3.7/site-packages/youtube_dl/extractor/common.py", line 1005, in _search_regex
+    raise RegexNotFoundError('Unable to extract %s' % _name)
+youtube_dl.utils.RegexNotFoundError: Unable to extract [0;34mInitial JS player signature function name[0m
+ (caused by RegexNotFoundError('Unable to extract \x1b[0;34mInitial JS player signature function name\x1b[0m'))
